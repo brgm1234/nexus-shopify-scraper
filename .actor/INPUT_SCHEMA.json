@@ -1,0 +1,24 @@
+{
+  "title": "Shopify Scraper Input",
+  "description": "Configuration for Shopify store product scraping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "storeUrls": {
+      "title": "Store URLs",
+      "type": "array",
+      "description": "Shopify store URLs to scrape (e.g., https://store.myshopify.com)",
+      "items": { "type": "string" },
+      "editor": "stringList"
+    },
+    "maxProducts": {
+      "title": "Maximum Products",
+      "type": "integer",
+      "description": "Maximum number of products to scrape per store",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 1000
+    }
+  },
+  "required": ["storeUrls"]
+}

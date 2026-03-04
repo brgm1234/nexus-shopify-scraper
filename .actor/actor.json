@@ -1,0 +1,9 @@
+{
+  "actorSpecVersion": 1,
+  "name": "nexus-shopify-scraper",
+  "title": "Shopify Scraper",
+  "description": "Fetches storeUrl/products.json and extracts product id, title, vendor, variants(price), images, handle, productUrl",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "environmentVariables": [],
+}
